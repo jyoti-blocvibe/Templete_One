@@ -1,0 +1,1240 @@
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-LightItalic.eot');
+    src: url('../sitefonts/Urbanist-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-LightItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-LightItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-LightItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-LightItalic.svg#Urbanist-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-MediumItalic.eot');
+    src: url('../sitefonts/Urbanist-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-MediumItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-MediumItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-MediumItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-MediumItalic.svg#Urbanist-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Medium.eot');
+    src: url('../sitefonts/Urbanist-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Medium.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Medium.woff') format('woff'),
+        url('../sitefonts/Urbanist-Medium.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Medium.svg#Urbanist-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Regular.eot');
+    src: url('../sitefonts/Urbanist-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Regular.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Regular.woff') format('woff'),
+        url('../sitefonts/Urbanist-Regular.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Regular.svg#Urbanist-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-SemiBold.eot');
+    src: url('../sitefonts/Urbanist-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-SemiBold.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-SemiBold.woff') format('woff'),
+        url('../sitefonts/Urbanist-SemiBold.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-SemiBold.svg#Urbanist-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-SemiBoldItalic.eot');
+    src: url('../sitefonts/Urbanist-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-SemiBoldItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-SemiBoldItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-SemiBoldItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-SemiBoldItalic.svg#Urbanist-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-ThinItalic.eot');
+    src: url('../sitefonts/Urbanist-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-ThinItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-ThinItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-ThinItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-ThinItalic.svg#Urbanist-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Thin.eot');
+    src: url('../sitefonts/Urbanist-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Thin.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Thin.woff') format('woff'),
+        url('../sitefonts/Urbanist-Thin.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Thin.svg#Urbanist-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Black.eot');
+    src: url('../sitefonts/Urbanist-Black.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Black.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Black.woff') format('woff'),
+        url('../sitefonts/Urbanist-Black.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Black.svg#Urbanist-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-BlackItalic.eot');
+    src: url('../sitefonts/Urbanist-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-BlackItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-BlackItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-BlackItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-BlackItalic.svg#Urbanist-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Bold.eot');
+    src: url('../sitefonts/Urbanist-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Bold.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Bold.woff') format('woff'),
+        url('../sitefonts/Urbanist-Bold.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Bold.svg#Urbanist-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-BoldItalic.eot');
+    src: url('../sitefonts/Urbanist-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-BoldItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-BoldItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-BoldItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-BoldItalic.svg#Urbanist-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-ExtraBold.eot');
+    src: url('../sitefonts/Urbanist-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-ExtraBold.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-ExtraBold.woff') format('woff'),
+        url('../sitefonts/Urbanist-ExtraBold.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-ExtraBold.svg#Urbanist-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-ExtraLight.eot');
+    src: url('../sitefonts/Urbanist-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-ExtraLight.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-ExtraLight.woff') format('woff'),
+        url('../sitefonts/Urbanist-ExtraLight.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-ExtraLight.svg#Urbanist-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-ExtraBoldItalic.eot');
+    src: url('../sitefonts/Urbanist-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-ExtraBoldItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-ExtraBoldItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-ExtraBoldItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-ExtraBoldItalic.svg#Urbanist-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Light.eot');
+    src: url('../sitefonts/Urbanist-Light.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Light.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Light.woff') format('woff'),
+        url('../sitefonts/Urbanist-Light.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Light.svg#Urbanist-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-Italic.eot');
+    src: url('../sitefonts/Urbanist-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-Italic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-Italic.woff') format('woff'),
+        url('../sitefonts/Urbanist-Italic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-Italic.svg#Urbanist-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../sitefonts/Urbanist-ExtraLightItalic.eot');
+    src: url('../sitefonts/Urbanist-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../sitefonts/Urbanist-ExtraLightItalic.woff2') format('woff2'),
+        url('../sitefonts/Urbanist-ExtraLightItalic.woff') format('woff'),
+        url('../sitefonts/Urbanist-ExtraLightItalic.ttf') format('truetype'),
+        url('../sitefonts/Urbanist-ExtraLightItalic.svg#Urbanist-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Urbanist';
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2 span {
+    color: #36A3B5;
+}
+b.ourcolor {
+    color: #FFF;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.arrow{
+        float: right;
+        margin-top: 114px;
+        padding: 40px;
+    }
+
+.btn {
+    font-style: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    min-height: 53px;
+    padding: 5px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #339BAD;
+    border-color: #339BAD;
+    margin-top: 18px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+   
+}
+
+.navsection {
+    width: 100%;
+
+}
+
+.monthpro {
+    font-size: 15px;
+    color: #a7a1a1e0;
+}
+
+
+.conta_iner {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 90%;
+}
+
+.site_logo {
+    height: 78px;
+}
+
+.nav-item list {
+    float: right;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+li.nav-item {
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 28px;
+}
+
+li.nav-item:last-child {
+    margin-right: 0;
+}
+
+button.btn.btn-primary.down {
+    margin-top: 5px;
+}
+
+.iconimg {
+    margin-left: 200px;
+    width: 67px;
+}
+
+p.aboutsaverpragrph {
+    font-size: 25px;
+    letter-spacing: 0px;
+    opacity: 1;
+    position: relative;
+    top: 20px;
+    color: #4d4d80;
+}
+
+a.nav-link {
+    color: #191e30;
+    color: var(--c_text);
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 10px;
+}
+
+link:hover {
+    color: rgb(23 117 128);
+}
+
+h1.main.heading {
+    width: 421px;
+    color: hsl(189, 54%, 44%)
+}
+
+
+ .nav-link:focus, .nav-link:hover {
+        color: rgb(51 155 173);
+    }
+
+.stridecolor {
+    color: black;
+}
+
+h2.secound.heading {
+    text-align: center;
+    margin-bottom: 81px;
+    color: #349fb0;
+    font-size: 40px;
+    color:#fff;
+}
+
+.stcolor {
+    color: black;
+}
+
+.container.mt3 {
+    display: contents;
+}
+
+.text.section {
+    width: 100%;
+}
+
+img.ide.images {
+    position: relative;
+    left: 100px;
+    bottom:0px;
+}
+.ser {
+    margin-top: 50px;
+}
+
+.atgraphcolor {
+    color: #36a3b5;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.secound {
+    padding-left: 227px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.firstheadersection {
+    width: 563px;
+    height: 19px;
+    -webkit-text-stroke-width: medium;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+.conta_iner {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 90%;
+}
+
+h3.ourfraturesheading {
+    padding-top: 50px;
+    text-align: left;
+    color: antiquewhite;
+    padding-left: 40px;
+    font-size: 47px;
+}
+
+.thirdsection {
+    background-color: #09142B;
+    display: flex;
+    width: 80%;
+    border-radius: 30px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.row._coloums {
+    margin-top: 30px;
+}
+.proplan {
+    display: flex;
+    align-content: stretch;
+    width: 81%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-button:hover {
+    z-index: 2;
+    color: #417179;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #ffffff;
+    /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #6e7d8c; */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    color: #339bad;
+    background-color: #fff;
+    border-color: #339bad;
+}
+
+.ourplansection {
+    padding-top: 78px;
+}
+
+ul.def {
+    list-style-type: none;
+    height: 100%;
+    padding-left: 0px;
+    font-size: 16px;
+}
+
+.fa-solid, .fas {
+    font-weight: 600;
+    color: #36A3B5;
+    margin-right: 10px;
+}
+
+.single-column {
+    border: 2px solid #70707012;
+    border-radius: 20px;
+    background-color: #FBFBFB;
+    padding: 40px 25px;
+    line-height: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnn {
+    margin-top: 0px;
+}
+
+.btn-primary:hover {
+    color: #339bad;
+    background-color: #fff;
+    border-color: #339bad;
+}
+
+.btn-primary.planclick {
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+h5 {
+    font-size: 24px;
+    padding-left: 0px;
+    font-weight: 500;
+}
+
+sub.plan.month {
+    font-size: 18px;
+    color: gray;
+    font-weight: 400;
+}
+
+.single-column.pro {
+    background-color: #339bad;
+}
+
+span.popularcolor {
+    float: right;
+    background-color: #FBFBFB;
+    color:#09142b;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    width: 74px;
+    padding-left: 18px;
+}
+p.pdouct {
+    line-height: normal;
+    width: 346px;
+    height: 47px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    line-height: 25px;
+}
+.planclick.color {
+    background-color: #FFFFFF;
+    color: #339bad;
+}
+
+b {
+    font-size: 61px;
+    line-height: 1;
+}
+
+.pro.textcolor {
+    color: aliceblue;
+}
+
+.fa-check.color {
+    color: aliceblue;
+}
+.monthpro {
+    font-size: 15px;
+}
+
+.blogsection {
+    margin-top: 61px;
+}
+
+p.staypgraph {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.blogclick {
+    margin-top:5px;
+    background-color: white;
+    color: #36a3b5;
+}
+
+img.roundedimg {
+    width: 100%;
+    height: 382px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.bloges {
+    
+      width: 100%;;
+      margin-top: 40px;
+}
+
+.exheading {
+    
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+hr {
+    border: 2px solid #9e9b9b;
+    margin-top: 30px;
+}
+
+.secoundblogsection {
+    margin-top: 35px;
+}
+
+.threesectionblogs{
+    border-radius: 30px;
+    height: 258px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogcontant {
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: system-ui;
+}
+
+.pgraphblogs {
+    color:#1d5572;
+    font-family: sans-serif;
+     line-height: 28px;
+}
+
+.threeclickblogs {
+    background-color: inherit;
+    color: #339bad;
+}
+
+span.faqtext {
+    font-size: 40px;
+}
+
+.fourth.section {
+    margin-top: 77px;
+}
+
+.accordion-item  {
+    border: none;
+     box-shadow: 1px 1px 5px 2px  #f1eaea;
+     margin-top: 20px;
+}
+
+.abc{
+    margin-top: 50px;
+   padding: 0px;
+}
+
+
+.abc .accordion-button{
+    background-color: #FFF;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.acouding {
+    margin-top: 54px;
+}
+button.accordion-button {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color:black;
+    background-color: #ffffff;
+    /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #6e7d8c; */
+}
+
+.frombox {
+    width: 25%;
+    height: auto;
+}
+
+.submit {
+    margin-top: 30px;
+    width: 138px;
+}
+
+
+.form-control {
+    border: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #d8c0c0;
+    border-radius: 0px ;
+    padding-left: 0px;
+}
+
+.contactspage {
+    background-color:#f2f2f2;
+    max-width: 910px;
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+    margin: 0 auto -140px auto;
+    margin-top: 80px;
+}
+.conactus {
+    background-color:#36A3B5;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #FFF;
+    padding: 30px;
+    width: 415px;
+}
+
+.contactheading {
+    font-size: 30px;
+    width: 247px;
+    height: 61px;
+}
+
+.conparghap {
+    font-size: 16px;
+    color: #FFF;
+}
+
+.frombox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  
+}
+
+
+input.form-control.is-invalid {
+    border: none;
+    background-color: #f2f2f2;
+    borrder-buttom: 1px solid black;
+}
+
+
+.contact.ul {
+    list-style: none;
+    padding-left: 2px;
+}
+
+li.contact.list {
+    display: flex;
+    line-height: 48px;
+}
+
+span.ph {
+    padding-left: 15px;
+}
+
+.labname {
+    color: gray;
+    font-size: 14px;
+    width: auto;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.form-control::placeholder {
+    color:black;
+    opacity: 1;
+    font-size: 18px;height: 100px;
+  }
+
+  textarea.form-control {
+    height: 80px;
+}
+
+.footerpage {
+    background: #09142B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 180px;
+    margin: 0 auto;
+    line-height: 2;
+
+}
+
+.footerlogo {
+    width: 130px;
+    font-size: 10;
+}
+
+.footertext {
+    color: aliceblue;
+}
+.foootercontant {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.logtext {
+    font-size: 50px;
+}
+
+.contantabe {
+    font-size: 24px;
+    padding-left: 0px;
+    inline-size: max-content;
+}
+
+.ullist {
+    list-style: none;
+    padding-left: 0px;
+    font-size:18px;
+    line-height: 2.6;
+    margin-top: 20px; 
+    
+}
+
+
+.link{
+    text-decoration: none;
+    color: #FBFBFB;
+}
+
+.socialicon {
+    color: #FBFBFB;
+    background-color: #36A3B5;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0097A7;
+}
+
+p.webcontant {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+
+a.socialicon {
+    background-color: #36a3b5;
+    color: aliceblue;
+   
+}
+
+
+a.socialicon:hover {
+    background-color: aliceblue;
+    color: #36a3b5;
+}
+
+
+ul.iconsocial {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+} 
+
+
+.Our.Features {
+    background-color: aliceblue;
+}
+
+
+
+ul.abc {
+    list-style-type: none;
+    margin-top: 0px;
+    
+}
+
+
+.Featurelist{
+    border: 2px solid #96919714;
+    background-color: #203a52;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: beige;
+    margin-top: 10px;
+    background-color:349fb0;
+   
+}
+
+
+.abc figure {
+    border: 1px solid #9822c714;
+    background-color: #182643;
+    padding-left: 10px;
+    background-color: #2f7e8a;
+    border-radius: 10px;
+    margin-right: 40px;
+    padding: 10px;
+    width: 45px;
+    height: 50px;
+    margin: 5px;
+}
+
+.Our.Features {
+    background-color: #18354e;
+    border-radius: 30px;
+}
+
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 1.1;
+    margin-top: 20px;
+   
+}
+
+
+h2.ourcolor {
+    color: #FFF;
+    padding-top: 35px;
+    padding-bottom: 23px;
+}
+
+.Feature {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
+
+figure.mobile.img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.figure{
+    max-width: 25px;
+    max-height: 25px;
+}
+.Testimonial {
+    background-color:#18354e;
+    margin-top: 50px;
+    padding: 50px;
+}
+.slick-slider {
+    position: relative;
+}
+.slick-slider .slick-list.draggable {
+    overflow: hidden;
+    margin: 0 -5px;
+}
+.slick-slide {
+    display: inline-block;
+    margin: 0 5px;
+}
+.lmk {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.Testimonial.h2{
+    color:#FFF;
+} 
+
+h6 {
+    font-size: 1rem;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Urbanist', sans-serif;
+    color: #09142b;
+}
+
+.testtimonial.heading {
+    font-size: 50px;
+    color: #FFF;
+}
+
+.testimonial_section::after {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    background-color: var(--c_primary);
+    z-index: 1;
+    background: #bbb;
+     cursor: pointer;
+  box-shadow: inset 0 1px 1px 0 #777;
+}
+
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 17px;
+    line-height: 51px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .75;
+    color: #47596b;
+}
+
+
+
+.slick-dots li button:before {
+    font-size: 18px;
+    line-height: 0px;
+    position: absolute;
+    color: #FFFFFF;
+    position: absolute;
+    left: 459px;
+   
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0a77d6;
+}
+
+@media (max-width: 1199px) {
+    li.nav-item {
+        margin-right: 15px;
+    }
+
+    a.nav-link {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    li.nav-item {
+        margin-right: 10px;
+    }
+
+    .btn {
+        font-style: 16px;
+        font-weight: 500;
+        text-transform: capitalize;
+        min-height: 0px;
+        padding: 10px;
+    }
+    .site_logo {
+        height: 64px;
+    }
+
+    .iconimg {
+        margin-left: 46%;
+        width: 11.5%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+
+    .stridecolor {
+        color: black;
+        font-weight: 800;
+    }
+
+
+p {
+   font-size: 16px;
+   
+   
+}
+
+.atgraphcolor {
+    font-size: 18px;
+}
+
+p.aboutsaverpragrph {
+    font-size: 18px;
+}
+    .arrow {
+        margin: 10px 30px;
+        width: 50%;
+    }
+
+
+     img.ide.images {
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+
+    .ser {
+        margin-top: 50px;
+    }
+
+
+   .our.Features {
+        margin-top:66px;
+
+   }
+   .ourplansection {
+    padding-top: 15px;
+}
+
+.conparghap {
+     width: 250px;
+     font-size: 14;
+     color: #FFF;
+
+}
+
+    h2.ourcolor {
+        color: #FFF;
+        padding-top: 35px;
+    }
+
+    h5 {
+        font-size: 19px;
+        padding-left: 10px;
+        font-weight: 600;
+    }
+
+    b {
+        font-size: 50px;
+    }
+
+    .ourplansection {
+    padding-top: 15px;
+    width: 100%;
+    }
+    .testtimonial.heading {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    img.testimg {
+        display: none;
+    }
+
+    .exheading {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .slick-dots li button:before {
+        font-size: 18px;
+        position:none;
+        left: 0px;
+        margin-top: 30px;
+    }
+    .contactheading {
+        width: 247px;
+        height: auto;
+    }
+
+
+    p.webcontant {
+        font-size: 16px;
+    }
+    .conactus {
+     margin-top: 0px;
+     width:auto;
+    }
+    .ullist {
+        font-size: 15px;
+         }
+       
+    }
+
+    span.ph {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+
+    .contantabe {
+        font-size: 20px;
+    } 
+
+   a .socialicon {
+        background-color: #36a3b5;
+        color: aliceblue;
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+
+@media (max-width: 991px) {
+    .site_logo {
+        height: 58px;
+    }
+    .iconimg {
+        margin-left: 200px;
+        width: 45px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 15px;
+      
+    }
+  
+} 
+
+@media(max-width:768px){
+   
+}
+@media(max-width:567px){
+}
